@@ -53,3 +53,7 @@ Es un **lugar de almacenamiento en la nube** donde se guardan las librerías y d
 #### - **Parámetro: Pentagon**
 
 #### - **Parámetro: Hexagon**
+
+
+### 6. QUÉ ES EL GIT IGNORE
+El .gitignore es un archivo para poder configurar que carpetas o archivos identificandolos por terminacion ".jar" o "nombre" para evitar llenar el repositorio de cosas que no nos sirven tenerlas en el repositorio o archivos "basura"
