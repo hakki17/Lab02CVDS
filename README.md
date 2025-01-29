@@ -1,20 +1,40 @@
-# Lab02CVDS
-# Integrantes
-## Alejandro Prieto
-## María Paula Sánchez Macías
+# Lab02CVDS  
+##### 29/01/2025  
 
-## ¿Cuál es su mayor utilidad?
-Maneja proyectos de construcción, y los maneja de manera que esté en un estado de consistencia el proyecto. Además, de utilizar automáticamente las librerias necesarias para el desarrollo del proyecto. Todo esto basado en el concepto de Project Object Model(POM)
+---
 
-## Fases de maven
-- Hacer la construcción un proceso fácil
-- Producir una construcción de sistema uniforme
-- Producir calidad del proyecto de información
-- Incetivar un mejor practica de desarollo
+### ===== Integrantes =====  
+- **Alejandro Prieto**  
+- **María Paula Sánchez Macías**
 
-## Ciclo de vida de la construcción
-- Default
-- Clean
-- Site
+---
 
-## ¿Para que sirven los Pluggins?
+### ¿Cuál es su mayor utilidad?  
+Maven es una herramienta que maneja proyectos de construcción, asegurando que el proyecto esté en un estado consistente. Además, gestiona automáticamente las librerías necesarias para el desarrollo del proyecto, todo basado en el concepto de **Project Object Model (POM)**.
+
+---
+
+### Fases de Maven
+- Facilitar el proceso de construcción.
+- Producir una construcción de sistema uniforme.
+- Generar información de calidad sobre el proyecto.
+- Fomentar buenas prácticas de desarrollo.
+
+---
+
+### Ciclo de vida de la construcción
+- **Default**  
+- **Clean**  
+- **Site**
+
+---
+
+### ¿Para qué sirven los Plugins?  
+Los **plugins** son herramientas que permiten extender la funcionalidad de Maven, cargando complementos que facilitan tareas como la compilación del código, la ejecución de pruebas, entre otras.
+
+---
+
+### ¿Qué es y para qué sirve el repositorio central de Maven?  
+Es un **lugar de almacenamiento en la nube** donde se guardan las librerías y dependencias que nuestro proyecto Java puede usar. Estas dependencias se definen en el archivo `pom.xml`, y Maven se encarga de descargarlas automáticamente al iniciar el proyecto. De esta manera, se evita la gestión manual de librerías, la búsqueda de actualizaciones y la necesidad de compartirlas entre desarrolladores.
+
+---
