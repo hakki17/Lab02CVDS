@@ -48,8 +48,8 @@ Es un **lugar de almacenamiento en la nube** donde se guardan las librerías y d
 ### 5. EJECUCIONES
 #### - **Sin parametros**
 
-#### - **Parámetro: qwerty**
+#### - **Parámetro: Qwerty**
 
-#### - **Parámetro: pentagon**
+#### - **Parámetro: Pentagon**
 
 #### - **Parámetro: Hexagon**
