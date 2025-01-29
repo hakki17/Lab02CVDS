@@ -16,6 +16,7 @@ node_modules/
 
 # Archivos y directorios de Maven
 target/
+.mvn/
 
 # Archivos generados por IntelliJ IDEA
 *.iml
