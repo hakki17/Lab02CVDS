@@ -49,15 +49,15 @@ Para crear un archivo **mvn** escribimos en el terminal, el siguiente comando:
 Comando:   
 Comando que nos permite ver la estructura formada por el proyecto que acabamos de generar   
 `tree /f`  
-![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Tree.png)
+![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/1.2.%20Tree.png)
 
 ### 2. AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 Realizamos el cambio y se ve asi:  
-![Como se ve el cambio en el archivo pom.xml]()
+![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Cambiar%20version%20compilador.png)
 
 ### 3. COMPILAR Y EJECUTAR
 Compilamos el codigo:  
-![Muestra de lo que nos muestra el terminal]()
+![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.%20Compilar.png)
 
 Aca la explicacion sobre el objetivo del parametro `package`:  
 - **Objetivo:**
