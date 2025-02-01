@@ -43,13 +43,13 @@ Es un **lugar de almacenamiento en la nube** donde se guardan las librerías y d
 ## EJERCICIO DE LAS FIGURAS
 ### 1. CREAR UN PROYECTO CON MAVEN
 Para crear un archivo **mvn** escribimos en el terminal, el siguiente comando:  
-`mvn archetype:generate -Dfilter=maven-archetype-quickstart`  
-![Ejecucion de comando](https://)
+`mvn archetype:generate -Dfilter=maven-archetype-quickstart`    
+![Ejecucion de ese comando en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/1.%20Ejecutar%20Comando.png)
 
 Comando:   
 Comando que nos permite ver la estructura formada por el proyecto que acabamos de generar   
 `tree /f`  
-![Tree /f](https://)
+![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Tree.png)
 
 ### 2. AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 
