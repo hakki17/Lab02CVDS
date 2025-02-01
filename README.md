@@ -52,8 +52,21 @@ Comando que nos permite ver la estructura formada por el proyecto que acabamos d
 ![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Tree.png)
 
 ### 2. AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
+Realizamos el cambio y se ve asi:  
+![Como se ve el cambio en el archivo pom.xml]()
 
 ### 3. COMPILAR Y EJECUTAR
+Compilamos el codigo:  
+![Muestra de lo que nos muestra el terminal]()
+
+Aca la explicacion sobre el objetivo del parametro `package`:  
+- **Objetivo:**
+- **Parametro 1:** Explicacion  
+
+
+Para ejecutar un proyecto maven desde la linea de comandos usamos el comando:  
+`Comando`
+
 
 ### 4. HACER EL ESQUELETO DE LA APLICACIÓN
 
