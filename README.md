@@ -55,22 +55,22 @@ Comando que nos permite ver la estructura formada por el proyecto que acabamos d
 Realizamos el cambio y se ve asi:  
 ![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Cambiar%20version%20compilador.png)
 
-![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.1%20cambiar%20compilador%20mvn.png)
+![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.2%20POM%20con%20plugin.png)
 
 ### 3. COMPILAR Y EJECUTAR
 Archivo de Java con el "Hello World"
 
-![codigo Java "HelloWorld"](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.3.%20HelloWorldJAVA.png)
+![codigo Java "HelloWorld"](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.3%20HelloWorldJAVA.png)  
 
 Compilamos el codigo: 
 
-![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20Compilar.png)
-![VER.2](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.5.%20mvn-Upackage.png)
-![VER.2-2](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.6.1%20mvn-Upackage2.png)
+![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20mvn-Upackage.png)  
+![VER.2](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20mvn-Upackage.png)  
+![VER.2-2](hhttps://github.com/hakki17/Lab02CVDS/blob/main/img/3.5%20mvn-Upackage2.png)  
 
 Ejecutamos el codigo:
 
-![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.7.%20EjecutarMVN.png)
+![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.7.%20EjecutarMVN.png)  
 
 Aca la explicacion sobre el objetivo del parametro `package`:  
 - **Objetivo:** El comando "package" sirve para crear un archivo ejecutable de un proyecto que puedas compartir o ejecutar directamente. Entre sus beneficios esta que no requiere instalación en el repositorio local, verifica que el proyecto se construye correctamente y crea un archivo distribuible
