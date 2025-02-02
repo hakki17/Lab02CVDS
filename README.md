@@ -55,13 +55,33 @@ Comando que nos permite ver la estructura formada por el proyecto que acabamos d
 Realizamos el cambio y se ve asi:  
 ![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.%20Cambiar%20version%20compilador.png)
 
+![Como se ve el cambio en el archivo pom.xml al cambiar la version del compilador](https://github.com/hakki17/Lab02CVDS/blob/main/img/2.1%20cambiar%20compilador%20mvn.png)
+
 ### 3. COMPILAR Y EJECUTAR
+Archivo de Java con el "Hello World"
+![codigo Java "HelloWorld"](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.%20HelloWorldJAVA.png)
+
 Compilamos el codigo:  
 ![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.%20Compilar.png)
+![VER.2](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.%20mvn-Upackage.png)
+![VER.2-2](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.1%20mvn-Upackage2.png)
+
+Ejecutamos el codigo:
+![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/6.%20EjecutarMVN.png)
 
 Aca la explicacion sobre el objetivo del parametro `package`:  
-- **Objetivo:**
-- **Parametro 1:** Explicacion  
+- **Objetivo:**El comando "package" sirve para crear un archivo ejecutable de un proyecto que puedas compartir o ejecutar directamente. Entre sus beneficios esta que no requiere instalación en el repositorio local, verifica que el proyecto se construye correctamente y crea un archivo distribuible
+- **Parametro 1:**
+***clean***: Elimina la carpeta target y archivos compilados
+***compile***: Compila el código fuente
+***test***: Ejecuta las pruebas unitarias
+***install***: Instala el paquete en el repositorio local
+***deploy***: Copia el paquete al repositorio remoto
+
+#### ¿Cómo enviar parámetros al plugin "exec"?
+mvn exec:java -Dexec.args="tuParametro"
+Ej:
+mvn exec:java -Dexec.args="Alejo Y Mapu"
 
 
 Para ejecutar un proyecto maven desde la linea de comandos usamos el comando:  
