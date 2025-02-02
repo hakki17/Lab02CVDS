@@ -108,8 +108,19 @@ Resultado que nos dió al ejecutar el código
 ### 4. HACER EL ESQUELETO DE LA APLICACIÓN  
 Se crea tanto el paquete edu.eci.cvds.patterns.shapes como el paquete edu.eci.cvds.patterns.shapes.concrete
 
+Creamos una interfaz llamada Shape.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes
+
 ![Creacion Shapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.1%20Creacion%20Shapes.png)  
-![Regular SHapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.2%20Regular%20shapes.png)  
+
+Creamos una enumeración llamada RegularShapeType.java en el mismo directorio de antes
+
+![Regular SHapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.2%20Regular%20shapes.png)
+
+- ***1. Triangle class***
+- ***2. Quadrilateral class***
+- ***3. Pentagon class***
+- ***4. Hexagon class***
+
 ![Creacion clases](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.3%20Creacion%20Clases.png)    
 #### **¿Cuál fábrica hiciste?**  
 Utilicé el patrón **Abstract Factory** para crear una fábrica que, en el futuro, podamos modificar fácilmente en caso de ser necesario. Esto se debe a que es en este punto donde se crean las instancias de las clases "Triangle", "Pentagon", "Hexagon" y "Quadrilateral". De este modo, se facilita la modificación o adición de nuevas figuras geométricas en el futuro.
