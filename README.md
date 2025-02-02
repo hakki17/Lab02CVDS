@@ -142,6 +142,14 @@ En nuestro caso, consideramos que la mejor opción es el patrón Abstract Factor
 ##### 4. **Parámetro: Hexagon**  
 ![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.4%20Par%C3%A1metro%20Hexagon.png)
 
+
+#### directorio
+![dir 1](https://github.com/hakki17/Lab02CVDS/blob/main/img/6.%20directorio%20carpetas.png)
+
+![dir 2](https://github.com/hakki17/Lab02CVDS/blob/main/img/6.1%20directorio%20carpeta%20shapes.png)
+
+![dir 3](https://github.com/hakki17/Lab02CVDS/blob/main/img/6.2%20directorio%20carpeta%20concrete.png)
+
 #### **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**  
 Todas las funciones entregan un valor o una respuesta del programa dependiendo del argumento de entrada. En este caso, la única que da la respuesta "correcta" es **Hexagon**, ya que nuestra clase numeradora, *ReguarShapeType*, proporciona los tipos de objetos. Cuando no tenemos otros objetos disponibles y la fábrica devuelve null si el tipo no "existe", el resultado indica que la respuesta no es correcta. El caso de Pentagon fue debido a un error de mayúsculas, ya que la "p" estaba en minúsculas.
 
