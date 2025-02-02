@@ -105,6 +105,8 @@ Resultado que nos dió al ejecutar el código
 
 ![ej JAVA-nombre compuesto](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.10%20resultado%20JAVA%20compuesta.png)
 
+---
+
 ### 4. HACER EL ESQUELETO DE LA APLICACIÓN  
 Se crea tanto el paquete edu.eci.cvds.patterns.shapes como el paquete edu.eci.cvds.patterns.shapes.concrete
 
