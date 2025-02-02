@@ -120,13 +120,13 @@ En nuestro caso, consideramos que la mejor opción es el patrón Abstract Factor
 
 ### 5. EJECUCIONES
 ##### 1. **Sin parametros**  
-![Resultado]()
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.1.png)
 ##### 2. **Parámetro: Qwerty**  
-![Resultado]()
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.2.png)
 ##### 3. **Parámetro: Pentagon**  
-![Resultado]()
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.3.png)
 ##### 4. **Parámetro: Hexagon**  
-![Resultado]()
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.4.png)
 
 #### **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**  
 Todas las funciones entregan un valor o una respuesta del programa dependiendo del argumento de entrada. En este caso, la única que da la respuesta "correcta" es **Hexagon**, ya que nuestra clase numeradora, *ReguarShapeType*, proporciona los tipos de objetos. Cuando no tenemos otros objetos disponibles y la fábrica devuelve null si el tipo no "existe", el resultado indica que la respuesta no es correcta. El caso de Pentagon fue debido a un error de mayúsculas, ya que la "p" estaba en minúsculas.
