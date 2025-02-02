@@ -49,7 +49,7 @@ Para crear un archivo **mvn** escribimos en el terminal, el siguiente comando:
 Comando:   
 Comando que nos permite ver la estructura formada por el proyecto que acabamos de generar   
 `tree /f`  
-![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/1.2.%20Tree.png)
+![Como se veria tree en pantalla](https://github.com/hakki17/Lab02CVDS/blob/main/img/1.2.%20Tree-ramasMAVEN.png)
 
 ### 2. AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 Realizamos el cambio y se ve asi:  
@@ -121,13 +121,13 @@ En nuestro caso, consideramos que la mejor opción es el patrón Abstract Factor
 
 ### 5. EJECUCIONES
 ##### 1. **Sin parametros**  
-![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.1.png)
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.1%20Ejecuci%C3%B3n%20sin%20par%C3%A1metro.png)
 ##### 2. **Parámetro: Qwerty**  
-![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.2.png)
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.2%20Par%C3%A1metro%20Qwerty.png)
 ##### 3. **Parámetro: Pentagon**  
-![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.3.png)
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.3%20Par%C3%A1metro%20Pentagon.png)
 ##### 4. **Parámetro: Hexagon**  
-![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.4.png)
+![Resultado](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.4%20Par%C3%A1metro%20Hexagon.png)
 
 #### **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**  
 Todas las funciones entregan un valor o una respuesta del programa dependiendo del argumento de entrada. En este caso, la única que da la respuesta "correcta" es **Hexagon**, ya que nuestra clase numeradora, *ReguarShapeType*, proporciona los tipos de objetos. Cuando no tenemos otros objetos disponibles y la fábrica devuelve null si el tipo no "existe", el resultado indica que la respuesta no es correcta. El caso de Pentagon fue debido a un error de mayúsculas, ya que la "p" estaba en minúsculas.
