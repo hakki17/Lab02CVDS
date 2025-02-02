@@ -106,17 +106,30 @@ Resultado que nos dió al ejecutar el código
 
 ![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.10%20resultado%20JAVA%20compuesta.png)
 
-### 4. HACER EL ESQUELETO DE LA APLICACIÓN
+### 4. HACER EL ESQUELETO DE LA APLICACIÓN  
+![Creacion Shapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.1%20Creacion%20Shapes.png)  
+![Regular SHapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.2%20Regular%20shapes.png)  
+![Creacion clases](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.3%20Creacion%20Clases.png)    
+#### **¿Cuál fábrica hiciste?**  
+Utilicé el patrón **Abstract Factory** para crear una fábrica que, en el futuro, podamos modificar fácilmente en caso de ser necesario. Esto se debe a que es en este punto donde se crean las instancias de las clases "Triangle", "Pentagon", "Hexagon" y "Quadrilateral". De este modo, se facilita la modificación o adición de nuevas figuras geométricas en el futuro.
+
+#### **¿Cuál es mejor?**  
+En nuestro caso, consideramos que la mejor opción es el patrón Abstract Factory, ya que nos permite cambiar fácilmente esta fábrica en el futuro por otra que genere nuevas figuras o incluso otro tipo de figuras (por ejemplo, figuras 3D). Esto facilita el mantenimiento y la expansión, ya que solo sería necesario modificar la fábrica en lugar de crear fábricas separadas para cada tipo de objeto, como lo seria con el metodo factory.
+
+![Shape Factory](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.4%20Shape%20Factory.png)  
 
 ### 5. EJECUCIONES
-#### - **Sin parametros**
+##### 1. **Sin parametros**  
+![Resultado]()
+##### 2. **Parámetro: Qwerty**  
+![Resultado]()
+##### 3. **Parámetro: Pentagon**  
+![Resultado]()
+##### 4. **Parámetro: Hexagon**  
+![Resultado]()
 
-#### - **Parámetro: Qwerty**
-
-#### - **Parámetro: Pentagon**
-
-#### - **Parámetro: Hexagon**
-
+#### **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**  
+Todas las funciones entregan un valor o una respuesta del programa dependiendo del argumento de entrada. En este caso, la única que da la respuesta "correcta" es **Hexagon**, ya que nuestra clase numeradora, *ReguarShapeType*, proporciona los tipos de objetos. Cuando no tenemos otros objetos disponibles y la fábrica devuelve null si el tipo no "existe", el resultado indica que la respuesta no es correcta. El caso de Pentagon fue debido a un error de mayúsculas, ya que la "p" estaba en minúsculas.
 
 ### 6. QUÉ ES EL GIT IGNORE
-El .gitignore es un archivo para poder configurar que carpetas o archivos identificandolos por terminacion ".jar" o "nombre" para evitar llenar el repositorio de cosas que no nos sirven tenerlas en el repositorio o archivos "basura"
+El archivo .gitignore se utiliza para configurar qué carpetas o archivos, identificados por su extensión (como .jar) o por su nombre, deben ser ignorados por Git. Esto ayuda a evitar que el repositorio se llene de archivos innecesarios o "basura" que no deberían formar parte del repositorio.
