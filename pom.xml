@@ -34,7 +34,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.example.Main</mainClass>
+          <mainClass>edu.eci.cvds.App</mainClass>
         </configuration>
       </plugin>
     </plugins>
