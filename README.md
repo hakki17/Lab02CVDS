@@ -155,3 +155,5 @@ Todas las funciones entregan un valor o una respuesta del programa dependiendo d
 
 ### 6. QUÉ ES EL GIT IGNORE
 El archivo .gitignore se utiliza para configurar qué carpetas o archivos, identificados por su extensión (como .jar) o por su nombre, deben ser ignorados por Git. Esto ayuda a evitar que el repositorio se llene de archivos innecesarios o "basura" que no deberían formar parte del repositorio.
+
+## Laboratorio 02 Terminado
