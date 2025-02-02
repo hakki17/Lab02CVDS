@@ -64,13 +64,12 @@ Archivo de Java con el "Hello World"
 
 Compilamos el codigo: 
 
-![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20mvn-Upackage.png)  
-![VER.2](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20mvn-Upackage.png)  
-![VER.2-2](hhttps://github.com/hakki17/Lab02CVDS/blob/main/img/3.5%20mvn-Upackage2.png)  
+![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.4.%20mvn-Upackage.png)   
+![VER.2-build success](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.5%20mvn-Upackage2.png)  
 
 Ejecutamos el codigo:
 
-![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.7.%20EjecutarMVN.png)  
+![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.6%20.%20EjecutarMVN.png)  
 
 Aca la explicacion sobre el objetivo del parametro `package`:  
 - **Objetivo:** El comando "package" sirve para crear un archivo ejecutable de un proyecto que puedas compartir o ejecutar directamente. Entre sus beneficios esta que no requiere instalación en el repositorio local, verifica que el proyecto se construye correctamente y crea un archivo distribuible
@@ -88,10 +87,10 @@ Ej:
 
 #### Configuración y ejecución en JAVA con argumentos
 Se configura el Java para que reciba argumentos y produzca el mensaje dependiendo de su entrada  
-![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.8.%20Java%20ARGS.png)
+![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.7.%20Java%20ARGS.png)
 
 Se ejecuta  
-![Ejecución JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.9%20resultado%20JAVA-args.png)
+![Ejecución JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.8%20resultado%20JAVA-args.png)
 
 
 #### Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
@@ -100,13 +99,15 @@ Solo recibe el primer parámetro no el segundo.
 ### Saludo compuesto
 Codigo de JAVA  
 
-![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.10.%20JAVA%20compuesta.png)
+![conf JAVA-nombre compuesto](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.9.%20JAVA%20compuesta.png)
 
 Resultado que nos dió al ejecutar el código  
 
-![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.10%20resultado%20JAVA%20compuesta.png)
+![ej JAVA-nombre compuesto](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.10%20resultado%20JAVA%20compuesta.png)
 
 ### 4. HACER EL ESQUELETO DE LA APLICACIÓN  
+Se crea tanto el paquete edu.eci.cvds.patterns.shapes como el paquete edu.eci.cvds.patterns.shapes.concrete
+
 ![Creacion Shapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.1%20Creacion%20Shapes.png)  
 ![Regular SHapes](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.2%20Regular%20shapes.png)  
 ![Creacion clases](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.3%20Creacion%20Clases.png)    
