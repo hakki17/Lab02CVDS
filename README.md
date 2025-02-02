@@ -59,14 +59,17 @@ Realizamos el cambio y se ve asi:
 
 ### 3. COMPILAR Y EJECUTAR
 Archivo de Java con el "Hello World"
+
 ![codigo Java "HelloWorld"](https://github.com/hakki17/Lab02CVDS/blob/main/img/4.%20HelloWorldJAVA.png)
 
-Compilamos el codigo:  
+Compilamos el codigo: 
+
 ![Muestra de lo que nos muestra el terminal](https://github.com/hakki17/Lab02CVDS/blob/main/img/3.%20Compilar.png)
 ![VER.2](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.%20mvn-Upackage.png)
 ![VER.2-2](https://github.com/hakki17/Lab02CVDS/blob/main/img/5.1%20mvn-Upackage2.png)
 
 Ejecutamos el codigo:
+
 ![Ejecución Hello Wolrd con mvn](https://github.com/hakki17/Lab02CVDS/blob/main/img/6.%20EjecutarMVN.png)
 
 Aca la explicacion sobre el objetivo del parametro `package`:  
@@ -83,10 +86,27 @@ mvn exec:java -Dexec.args="tuParametro"
 Ej:
 mvn exec:java -Dexec.args="Alejo Y Mapu"
 
+#### Configuración y ejecución en JAVA con argumentos
+Se configura el Java para que reciba argumentos y produzca el mensaje dependiendo de su entrada
+![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/7.%20Java%20ARGS.png)
+
+Se ejecuta
+![Ejecución JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/7.1%20resultado%20JAVA-args.png)
 
 Para ejecutar un proyecto maven desde la linea de comandos usamos el comando:  
 `Comando`
 
+#### Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+Solo recibe el primer parámetro no el segundo
+
+### Saludo compuesto
+Codigo de JAVA
+
+![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/8.%20JAVA%20compuesta.png)
+
+Resultado que nos dió al ejecutar el código
+
+![conf JAVA-args](https://github.com/hakki17/Lab02CVDS/blob/main/img/8.1%20resultado%20JAVA%20compuesta.png)
 
 ### 4. HACER EL ESQUELETO DE LA APLICACIÓN
 
